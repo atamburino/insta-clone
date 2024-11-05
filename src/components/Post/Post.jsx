@@ -53,7 +53,7 @@ class Post extends Component {
               <button>
                 <FontAwesomeIcon icon={faHeart} />
               </button>
-              <div>34.2K</div>
+              {/* <div>34.2K</div> */}
             </div>
           </div>
           {/* End of likes */}
@@ -64,7 +64,7 @@ class Post extends Component {
               <button>
                 <FontAwesomeIcon icon={faComment} />
               </button>
-              <div>98</div>
+              {/* <div>98</div> */}
             </div>
           </div>
           {/* end of comments */}
@@ -75,7 +75,7 @@ class Post extends Component {
               <button>
                 <FontAwesomeIcon icon={faPaperPlane} />
               </button>
-              <div>10.1K</div>
+              {/* <div>10.1K</div> */}
             </div>
           </div>
           {/* end of share */}
