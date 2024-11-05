@@ -1,0 +1,119 @@
+.Post {
+    max-width: 37.5rem;
+    width: 100%;
+    margin: 0 auto 1.25rem auto;
+    border: 0.0625rem solid #0000;
+    border-radius: 0.5rem;
+    background-color: black;
+}
+
+.TopBar {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+/* Profile picture */
+.TopBar img:first-child {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+}
+
+/* User info container */
+.UserInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.UserNameRow {
+    display: flex;
+    align-items: center;
+}
+
+.TopBar h5 {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-right: 0.2rem;
+    color: #ffffff;
+}
+
+.TopBar img:nth-child(3) {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+.TopBar h6 {
+    color: #757575;
+    font-size: 0.75rem;
+    margin: 0.25rem 0 0 0;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.TopBar button {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.Content {
+    width: 100%;
+}
+
+.Content img {
+    width: 100%;
+    height: auto;
+}
+
+/* Bottom bar sections */
+.Likes,
+.Comments,
+.Share,
+.Save {
+    padding: 0 1rem;
+}
+
+.Likes div,
+.Comments div,
+.Share div,
+.Save div {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+/* Buttons in bottom bar */
+.Likes button,
+.Comments button,
+.Share button,
+.Save button {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    margin-right: 0.75rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+/* Text in bottom bar */
+.Likes div div,
+.Comments div div,
+.Share div div,
+.Save div div {
+    color: #ffffff;
+}
+
+.Save {
+    margin-left: auto;
+}
+
+.BottomBar {
+    display: flex;
+    align-items: center;
+}

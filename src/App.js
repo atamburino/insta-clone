@@ -26,6 +26,7 @@ class App extends Component {
       // wrapper for to provide the parent element thats
       // required for the return.
       <div className="App">
+        <br></br>
         <Post />
       </div>
     );
