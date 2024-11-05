@@ -1,6 +1,3 @@
-// imports the stylesheet from app.css
-import "./styles/App.css";
-
 // For React ->>
 // The import React here import the core React library
 // From the Docs -> This gives gus access to JSX Processing, Hooks in functional components & lifecycle methods.
@@ -9,6 +6,11 @@ import "./styles/App.css";
 // This is a class that provides the render() method & base for class components
 // From the Docs -> State Management with this.state 
 import React, { Component } from "react";
+import Post from "./components/Post/Post";
+
+
+// imports the stylesheet from app.css
+import "./styles/App.css";
 
 // This is a new class named "App" that inherits from React.Component (extends).
 // By having a class we get access to features of the react.component in this class we use render()
@@ -24,7 +26,7 @@ class App extends Component {
       // wrapper for to provide the parent element thats
       // required for the return.
       <div className="App">
-        <p>This is life</p>
+        <Post />
       </div>
     );
   }
