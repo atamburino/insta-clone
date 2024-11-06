@@ -12,9 +12,6 @@ import './styles/index.css';
 // This is the top-level component that will contain all other components (think as the component wrapper)
 import App from './App';
 
-// performance metrics -- Need to read up on this more
-import reportWebVitals from './reportWebVitals';
-
 // This is our root React element using the DOM element with id="root"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,10 +24,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// Performance measuring code
-// You can pass a function here to log performance metrics
-// Examples: reportWebVitals(console.log) or send data to an analytics service
-// Learn more at https://bit.ly/CRA-vitals
-//need to read more on this
-reportWebVitals();
